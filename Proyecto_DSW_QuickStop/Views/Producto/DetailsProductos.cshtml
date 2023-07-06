@@ -1,0 +1,85 @@
+﻿@model Proyecto_DSW_QuickStop.Models.ProductosModel
+
+<div class="col-md-12 text-center">
+    <img src="/Logos/1.png" alt="Logo" style="width: 200px; height: 200px;">
+</div>
+
+<style>
+    body {
+        background-image: url("@Url.Content("/Fondos/3.jpg")");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+</style>
+
+<h1 class="text-center">DETALLE DEL PRODUCTO</h1>
+
+<div class="container">
+    <div>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.codProd)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.codProd)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.nomProd)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.nomProd)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.codCat)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.codCat)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.preProd)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.preProd)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.stokProd)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.stokProd)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.eliProd)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.eliProd)
+            </dd>
+        </dl>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="text-center">
+                @Html.ActionLink("Editar", "EditProductos", new { id = Model.codProd }, new { @class = "btn btn-primary" })
+                <a asp-action="IndexProductosPorNombre" class="btn btn-secondary">Regresar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+            @if (ViewBag.MENSAJE != null)
+            {
+                <div class="alert alert-info">
+                    <p>@ViewBag.MENSAJE</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

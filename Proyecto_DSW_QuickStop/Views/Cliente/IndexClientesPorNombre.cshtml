@@ -1,0 +1,176 @@
+﻿@model IEnumerable<Proyecto_DSW_QuickStop.Models.ClienteModelv2>
+
+<br />
+@{
+    ViewData["Title"] = "MANTENIMIENTO DE CLIENTES";
+}
+    
+<style>
+    body {
+        background-image: url("@Url.Content("/Fondos/3.jpg")");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+
+    .card {
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .my-form label {
+        font-weight: bold;
+    }
+
+    .my-form .form-control {
+        border-radius: 20px;
+    }
+
+    .my-form .btn-primary {
+        border-radius: 20px;
+    }
+
+    .card-img-top {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .btn-primary {
+        border-radius: 30px;
+    }
+
+    .btn-danger {
+        border-radius: 30px;
+    }
+
+    .table {
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+        .table th {
+            background-color: #f8f9fa;
+        }
+
+        .table td {
+            vertical-align: middle;
+        }
+</style>
+<br/>
+<br />
+
+<div class="col-md-6">
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-success">
+            @ViewBag.MENSAJE
+        </div>
+    }
+</div>
+
+<div class="col-md-12 text-center">
+    <img src="/Logos/1.png" alt="Logo" style="width: 200px; height: 200px;">
+</div>
+<br />
+<h1>MANTENIMIENTO DE CLIENTES</h1>
+
+
+
+<div class="container">
+    @using (Html.BeginForm())
+    {
+        <div class="form-group">
+            @Html.Label("Nombre del Cliente:")
+            <div class="input-group">
+                @Html.TextBox("nom", null, new { @class = "form-control" })
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Consultar</button>
+                </div>
+            </div>
+        </div>
+    }
+    <br><br>
+
+    <p>
+        <a asp-action="CreateClientes" class="btn btn-success">Crear Cliente</a>
+    </p>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.codCliente)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nomCliente)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.telCliente)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.corCliente)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.dirCliente)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.credCliente)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.fechaNac)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.codDistrito)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.codCliente)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nomCliente)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.telCliente)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.corCliente)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.dirCliente)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.credCliente)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.fechaNac)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.codDistrito)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Editar", "EditClientes", new { id = item.codCliente }, new { @class = "btn btn-primary"  })
+                        @Html.ActionLink("Detalles", "DetailsClientes", new { id = item.codCliente }, new { @class = "btn btn-info" })
+                        @Html.ActionLink("Eliminar", "DeleteClientes", new { id = item.codCliente }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <br>
+    <div class="mt-4">
+        <!-- crear la cantidad ActionLink de acuerdo al numero de páginas obtenido -->
+        @for (int i = 0; i < ViewBag.PAGINAS; i++)
+        {
+            @Html.ActionLink((i + 1).ToString(), "IndexClientesPorNombre", new { nombre = ViewBag.NOM, nropagina = i }, new { @class = "btn btn-primary mr-2" })
+        }
+    </div>
+</div>

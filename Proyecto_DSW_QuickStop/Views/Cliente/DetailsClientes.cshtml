@@ -1,0 +1,97 @@
+﻿@model Proyecto_DSW_QuickStop.Models.ClienteModelv2
+
+<div class="col-md-12 text-center">
+    <img src="/Logos/1.png" alt="Logo" style="width: 200px; height: 200px;">
+</div>
+
+<style>
+    body {
+        background-image: url("@Url.Content("/Fondos/3.jpg")");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+</style>
+
+<h1 class="text-center">DETALLE DEL CLIENTE</h1>
+
+<div class="container">
+    <div>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.codCliente)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.codCliente)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.nomCliente)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.nomCliente)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.telCliente)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.telCliente)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.corCliente)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.corCliente)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.dirCliente)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.dirCliente)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.credCliente)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.credCliente)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.fechaNac)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.fechaNac)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.codDistrito)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.codDistrito)
+            </dd>
+        </dl>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="text-center">
+                @Html.ActionLink("Editar", "EditClientes", new { id = Model.codCliente }, new { @class = "btn btn-primary" })
+                <a asp-action="IndexClientesPorNombre" class="btn btn-secondary">Volver</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-6">
+            @if (ViewBag.MENSAJE != null)
+            {
+                <div class="alert alert-info">
+                    <p>@ViewBag.MENSAJE</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

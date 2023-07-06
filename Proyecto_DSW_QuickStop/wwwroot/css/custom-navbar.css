@@ -1,0 +1,6 @@
+@media (max-width: 576px) {
+    /* Agrega tus estilos CSS para pantallas más pequeñas aquí */
+    body {
+        background-color: red;
+    }
+}

@@ -1,0 +1,99 @@
+﻿@model Proyecto_DSW_QuickStop.Models.ProductosModel
+
+<style>
+    body {
+        background-image: url("@Url.Content("/Fondos/3.jpg")");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .my-form {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 50px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .my-form label {
+        font-weight: bold;
+    }
+
+    .my-form .form-control {
+        border-radius: 20px;
+    }
+
+    .my-form .btn-primary {
+        border-radius: 20px;
+    }
+</style>
+
+<h4>ProductosModel</h4>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <img src="/Logos/1.png" alt="Logo" style="width: 200px; height: 200px;">
+        </div>
+    </div>
+    <div class="col-md-4 offset-md-4">
+        <form asp-action="CreateProductos" class="my-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="codProd" class="control-label">Código de Producto:</label>
+                <input asp-for="codProd" class="form-control" />
+                <span asp-validation-for="codProd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nomProd" class="control-label">Nombre de Producto:</label>
+                <input asp-for="nomProd" class="form-control" />
+                <span asp-validation-for="nomProd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="codCat" class="control-label">Código de Categoría:</label>
+                @Html.DropDownList("codCat", ViewBag.Categorias as SelectList,
+                                "Seleccione", new { @class = "form-select" })
+            </div>
+            <div class="form-group">
+                <label asp-for="preProd" class="control-label">Precio de Producto:</label>
+                <input asp-for="preProd" class="form-control" />
+                <span asp-validation-for="preProd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="stokProd" class="control-label">Stock de Producto:</label>
+                <input asp-for="stokProd" class="form-control" />
+                <span asp-validation-for="stokProd" class="text-danger"></span>
+            </div>
+            <!--
+            <div class="form-group">
+                <label asp-for="eliProd" class="control-label"></label>
+                <input asp-for="eliProd" class="form-control" />
+                <span asp-validation-for="eliProd" class="text-danger"></span>
+            </div>
+            -->
+            <br />
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Registrar" class="btn btn-primary" />
+                
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<br />
+<div class="text-center">
+    <a class="btn btn-success" asp-action="IndexProductosPorNombre">Volver al Listado</a>
+</div>
+<br />
+<br />
+@if (!string.IsNullOrEmpty(ViewBag.MENSAJE))
+{
+    <div class="alert alert-info">
+        <p>@ViewBag.MENSAJE</p>
+    </div>
+}

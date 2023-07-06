@@ -1,0 +1,151 @@
+﻿@model Proyecto_DSW_QuickStop.Models.ProductosModel
+
+@{
+    ViewData["Title"] = "AgregarCarrito";
+}
+
+<style>
+     body {
+        background-image: url('@Url.Content("/Fondos/5.jpg")');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    dl.row {
+        margin-top: 20px;
+    }
+
+    dt.col-sm-2 {
+        font-weight: bold;
+        text-align: left;
+    }
+
+    dd.col-sm-10 {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .articulo-image img {
+        max-width: 200px;
+        max-height: 200px;
+        margin-top: 20px;
+    }
+
+    .btn {
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        color: #fff;
+        border-color: #28a745;
+    }
+
+    .btn-warning {
+        background-color: #ffc107;
+        color: #000;
+        border-color: #ffc107;
+    }
+
+    .btn-info {
+        background-color: #17a2b8;
+        color: #fff;
+        border-color: #17a2b8;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+</style>
+
+<div class="container">
+    <h1>AGREGAR AL CARRITO DE COMPRAS</h1>
+    <br />
+    <div>
+        <h4>Detalles del Producto </h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                Código
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.codProd)
+            </dd>
+            <dt class="col-sm-2">
+                Nombre
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.nomProd)
+            </dd>
+            <dt class="col-sm-2">
+                Categoría
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.codCat)
+            </dd>
+            <dt class="col-sm-2">
+                Precio
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.preProd)
+            </dd>
+            <dt class="col-sm-2">
+                Stock
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.stokProd)
+            </dd>
+            <dt class="col-sm-2">
+                Delete
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.eliProd)
+            </dd>
+        </dl>
+
+        <div class="articulo-image">
+            <img src="@Url.Content($"/Productos/{Model.codProd}.jpg")" alt="@Model.nomProd" />
+        </div>
+    </div>
+
+    <div>
+        @using (Html.BeginForm())
+        {
+            <div>
+                @Html.Hidden("id", Model.codProd)
+
+                Ingrese la Cantidad: @Html.TextBox("n_cantidad", 1)
+                <br />
+                <button class="btn btn-success">Agregar al Carrito</button> 
+                <a asp-action="ListarProducto" class="btn btn-warning">Regresar</a> 
+                <a asp-action="VerCarrito" class="btn btn-warning">Ver Carrito</a>
+            </div>
+        }
+    </div>
+
+    <div>
+        <p>
+            @ViewBag.MENSAJE
+        </p>
+    </div>
+</div>

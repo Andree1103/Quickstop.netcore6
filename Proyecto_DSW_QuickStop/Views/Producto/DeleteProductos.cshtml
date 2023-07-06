@@ -1,0 +1,71 @@
+﻿@model Proyecto_DSW_QuickStop.Models.ProductosModel
+
+
+
+<style>
+    body {
+        background-image: url("@Url.Content("/Fondos/3.jpg")");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+</style>
+<h3>¿Estás seguro de eliminar este Producto?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.codProd)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.codProd)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.nomProd)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.nomProd)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.codCat)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.codCat)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.preProd)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.preProd)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.stokProd)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.stokProd)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.eliProd)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.eliProd)
+        </dd>
+    </dl>
+
+    <form asp-action="DeleteProductos">
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a class="btn btn-success" asp-action="IndexProductosPorNombre">Volver al Listado</a>
+    </form>
+
+   
+</div>
+
+<br />
+@if (ViewBag.MENSAJE != null)
+{
+    <div class="alert alert-primary">
+        @ViewBag.MENSAJE
+    </div>
+}
+

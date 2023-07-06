@@ -1,0 +1,95 @@
+﻿@model IEnumerable<Proyecto_DSW_QuickStop.Modelos.Favoritos>
+
+<style>
+    body {
+        background-image: url('@Url.Content("/Fondos/3.jpg")');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .table {
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+        .table th {
+            background-color: #f8f9fa;
+        }
+
+        .table td {
+            vertical-align: middle;
+        }
+
+    .btn-primary {
+        border-radius: 30px;
+    }
+
+    .btn-danger {
+        border-radius: 30px;
+    }
+
+    .card-img-top {
+        border-radius: 20px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+</style>
+
+<div class="col-md-12 text-center">
+    <img src="/Logos/1.png" alt="Logo" style="width: 200px; height: 200px;">
+</div>
+<br />
+
+<h1>REGISTRA TU PRODUCTO FAVORITO</h1>
+<br />
+<p>
+    <a asp-action="CreateMedicos" class="btn btn-primary">Añadir un Favorito mas</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.cod_fav)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cod_cli)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cod_prod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.eliminado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cod_fav)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cod_cli)
+                </td>
+                <td>
+                    <img src="@Url.Content("/Productos/" + item.cod_prod + ".jpg")" class="card-img-top" alt="">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.descripcion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.eliminado)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "EditFavoritos", new { id = item.cod_fav }, new { @class = "btn btn-success" })
+                    <a asp-action="DeleteMedicos" asp-route-id="@item.cod_fav" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

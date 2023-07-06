@@ -1,0 +1,148 @@
+﻿@model IEnumerable<Proyecto_DSW_QuickStop.Models.ProductosModel>
+
+@{
+    ViewData["Title"] = "MANTENIMIENTO DE PRODUCTOS";
+}
+
+
+<style>
+    body {
+        background-image: url('@Url.Content("/Fondos/3.jpg")');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+
+    .card {
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-img-top {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .btn-primary {
+        border-radius: 30px;
+    }
+
+    .btn-danger {
+        border-radius: 30px;
+    }
+
+    .table {
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+        .table th {
+            background-color: #f8f9fa;
+        }
+
+        .table td {
+            vertical-align: middle;
+        }
+</style>
+
+<div class="col-md-12 text-center">
+    <img src="/Logos/1.png" alt="Logo" style="width: 200px; height: 200px;">
+</div>
+<br />
+<h1>MANTENIMIENTO DE PRODUCTOS</h1>
+
+
+
+    @using (Html.BeginForm())
+    {
+        <div class="form-group">
+            @Html.Label("Nombre del Producto:")
+            <div class="input-group">
+                @Html.TextBox("nom", null, new { @class = "form-control" })
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Consultar</button>
+                </div>
+            </div>
+        </div>
+    }
+
+
+<br />
+<br />
+@if (ViewBag.MENSAJE != null)
+{
+    <div class="alert alert-primary">
+        @ViewBag.MENSAJE
+    </div>
+}
+<br />
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <p>
+                <a asp-action="CreateProductos" class="btn btn-success">Crear Producto</a>
+            </p>
+        </div>
+    </div>
+
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.codProd)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.nomProd)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.codCat)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.preProd)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.stokProd)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.codProd)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.nomProd)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.codCat)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.preProd)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.stokProd)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Editar", "EditProductos", new { id = item.codProd }, new { @class = "btn btn-primary" })
+                        @Html.ActionLink("Detalle", "DetailsProductos", new { id = item.codProd }, new { @class = "btn btn-info" })
+                        @Html.ActionLink("Eliminar", "DeleteProductos", new { id = item.codProd }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="mt-4">
+        <!-- crear la cantidad ActionLink de acuerdo al numero de páginas obtenido -->
+        @for (int i = 0; i < ViewBag.PAGINAS; i++)
+        {
+            @Html.ActionLink((i + 1).ToString(), "IndexProductosPorNombre", new { nombre = ViewBag.NOM, nropagina = i }, new { @class = "btn btn-primary mr-2" })
+        }
+    </div>
+</div>

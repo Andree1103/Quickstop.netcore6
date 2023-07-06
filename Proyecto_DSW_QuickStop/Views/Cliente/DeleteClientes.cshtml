@@ -1,0 +1,92 @@
+﻿@model Proyecto_DSW_QuickStop.Models.ClienteModelv2
+
+@{
+    ViewData["Title"] = "DeleteClientes";
+}
+
+<style>
+    body {
+        background-image: url("@Url.Content("/Fondos/3.jpg")");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+
+    h1 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .row {
+        margin-bottom: 20px;
+    }
+
+    dt {
+        font-weight: bold;
+    }
+
+    .btn-danger {
+        border-radius: 20px;
+        margin-right: 10px;
+    }
+
+    .alert {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+        .alert p {
+            margin-bottom: 0;
+        }
+</style>
+
+
+
+<h3>¿Estás seguro de eliminar este Cliente?</h3>
+<div>
+    <h4>ClienteModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Código:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.codCliente)</dd>
+        <dt class="col-sm-2">Nombre:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.nomCliente)</dd>
+        <dt class="col-sm-2">Teléfono:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.telCliente)</dd>
+        <dt class="col-sm-2">Correo:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.corCliente)</dd>
+        <dt class="col-sm-2">Dirección:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.dirCliente)</dd>
+        <dt class="col-sm-2">Crédito:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.credCliente)</dd>
+        <dt class="col-sm-2">Fecha de Nacimiento:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.fechaNac)</dd>
+        <dt class="col-sm-2">Código de Distrito:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.codDistrito)</dd>
+
+
+    </dl>
+    <br />
+    <form asp-action="DeleteClientes" class="my-form">
+        <input type="submit" value="Eliminar" class="btn btn-danger" />
+        <a asp-action="IndexClientesPorNombre" class="btn btn-secondary">Volver a la Lista</a>
+    </form>
+</div>
+<br />
+<br />
+<div class="alert alert-info">
+    <p>@ViewBag.MENSAJE</p>
+</div>

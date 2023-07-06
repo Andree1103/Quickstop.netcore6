@@ -1,0 +1,573 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Proyecto_DSW_QuickStop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Proyecto_DSW_QuickStop.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\BANNER\\BANNER1.jpg",
+      "PackagePath": "staticwebassets\\BANNER\\BANNER1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\BANNER\\BANNER2.png",
+      "PackagePath": "staticwebassets\\BANNER\\BANNER2.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\BANNER\\BANNER3.jpg",
+      "PackagePath": "staticwebassets\\BANNER\\BANNER3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Fondos\\1.jpg",
+      "PackagePath": "staticwebassets\\Fondos\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Fondos\\2.jpg",
+      "PackagePath": "staticwebassets\\Fondos\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Fondos\\3.jpg",
+      "PackagePath": "staticwebassets\\Fondos\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Fondos\\4.jpg",
+      "PackagePath": "staticwebassets\\Fondos\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Fondos\\5.jpg",
+      "PackagePath": "staticwebassets\\Fondos\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Fondos\\6.jpg",
+      "PackagePath": "staticwebassets\\Fondos\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Fondos\\7.jpg",
+      "PackagePath": "staticwebassets\\Fondos\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Fondos\\8.jpg",
+      "PackagePath": "staticwebassets\\Fondos\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Fondos\\9.jpg",
+      "PackagePath": "staticwebassets\\Fondos\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Logos\\1.png",
+      "PackagePath": "staticwebassets\\Logos\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Marcas\\1.png",
+      "PackagePath": "staticwebassets\\Marcas\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Marcas\\10.png",
+      "PackagePath": "staticwebassets\\Marcas\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Marcas\\2.png",
+      "PackagePath": "staticwebassets\\Marcas\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Marcas\\3.png",
+      "PackagePath": "staticwebassets\\Marcas\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Marcas\\4.png",
+      "PackagePath": "staticwebassets\\Marcas\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Marcas\\5.png",
+      "PackagePath": "staticwebassets\\Marcas\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Marcas\\6.png",
+      "PackagePath": "staticwebassets\\Marcas\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Marcas\\7.png",
+      "PackagePath": "staticwebassets\\Marcas\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Marcas\\8.png",
+      "PackagePath": "staticwebassets\\Marcas\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Marcas\\9.png",
+      "PackagePath": "staticwebassets\\Marcas\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0001.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0002.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0003.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0004.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0005.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0006.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0007.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0008.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0009.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0010.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0011.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0012.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0013.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0014.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0015.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0016.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0016.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0017.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0018.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0019.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0019.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0020.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0020.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0021.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0021.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0022.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0022.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0023.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0024.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0024.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0025.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0025.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0026.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0026.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0027.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0027.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0028.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0028.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0029.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0029.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0030.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0030.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0031.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0031.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0032.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0032.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0033.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0033.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0034.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0034.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0035.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0035.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0036.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0036.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0037.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0037.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0038.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0038.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0039.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0039.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0040.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0040.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0041.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0041.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0042.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0042.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0043.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0043.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0044.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0044.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\Productos\\P0045.jpg",
+      "PackagePath": "staticwebassets\\Productos\\P0045.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\css\\custom-navbar.css",
+      "PackagePath": "staticwebassets\\css\\custom-navbar.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\styles\\font-awesome.css",
+      "PackagePath": "staticwebassets\\styles\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\Desktop\\PROYECTO - VISUAL\\Proyecto_DSW_QuickStop\\Proyecto_DSW_QuickStop\\wwwroot\\styles\\style.css",
+      "PackagePath": "staticwebassets\\styles\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Proyecto_DSW_QuickStop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Proyecto_DSW_QuickStop.props",
+      "PackagePath": "build\\Proyecto_DSW_QuickStop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Proyecto_DSW_QuickStop.props",
+      "PackagePath": "buildMultiTargeting\\Proyecto_DSW_QuickStop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Proyecto_DSW_QuickStop.props",
+      "PackagePath": "buildTransitive\\Proyecto_DSW_QuickStop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

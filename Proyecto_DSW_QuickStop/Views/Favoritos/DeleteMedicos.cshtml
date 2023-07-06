@@ -1,0 +1,103 @@
+﻿@model Proyecto_DSW_QuickStop.Modelos.Favoritos
+
+<h3>¿Estás seguro de eliminarlo?</h3>
+<div class="container">
+    <h4>Favoritos</h4>
+    <hr />
+    <dl class="row">
+       
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.cod_fav)
+        </dd>
+        
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.cod_cli)
+        </dd>
+        
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.cod_prod)
+        </dd>
+        
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+        
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.eliminado)
+        </dd>
+    </dl>
+
+    <form asp-action="DeleteMedicos" class="my-form">
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="IndexFavoritos" class="btn btn-warning">Regresar</a>
+    </form>
+</div>
+
+<br />
+<div class="alert alert-success">
+    <p>
+        @ViewBag.MENSAJE
+    </p>
+</div>
+
+<style>
+    body {
+        background-image: url("@Url.Content("/Fondos/3.jpg")");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 50px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .my-form {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 50px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .my-form label {
+            font-weight: bold;
+        }
+
+        .my-form .form-control {
+            border-radius: 20px;
+        }
+
+        .my-form .btn-primary {
+            border-radius: 20px;
+        }
+
+        .my-form .btn-warning {
+            border-radius: 20px;
+        }
+
+        .my-form .btn-danger {
+            border-radius: 20px;
+        }
+
+        .my-form .btn-warning {
+            border-radius: 20px;
+        }
+
+    .row dt, .row dd {
+        margin-bottom: 10px;
+    }
+
+  
+        .row dt:nth-child(5) {
+            letter-spacing: 2px; 
+        }
+</style>

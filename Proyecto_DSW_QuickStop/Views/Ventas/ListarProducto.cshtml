@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Proyecto_DSW_QuickStop.Models.ProductosModel>
+
+@{
+    ViewData["Title"] = "ListarProducto";
+}
+
+<style>
+    body {
+        background-image: url('@Url.Content("/Fondos/5.jpg")');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+
+    .card {
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-img-top {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .btn-primary {
+        border-radius: 30px;
+    }
+
+    .btn-danger {
+        border-radius: 30px;
+    }
+</style>
+
+<div class="container">
+    <h1 class="text-center">Listar Producto</h1>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="@Url.Content("/Productos/"+ item.codProd + ".jpg")" class="card-img-top" alt="@item.nomProd">
+                    <div class="card-body">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.nomProd)</h5>
+                        <p class="card-text">Código: @Html.DisplayFor(modelItem => item.codProd)</p>
+                        <p class="card-text">Categoría: @Html.DisplayFor(modelItem => item.codCat)</p>
+                        <p class="card-text">Precio: @Html.DisplayFor(modelItem => item.preProd)</p>
+                        <p class="card-text">Stock: @Html.DisplayFor(modelItem => item.stokProd)</p>
+                        <div class="text-center">
+                            <a href="VerCarrito" class="btn btn-primary">Ver Carrito</a>
+                            @Html.ActionLink("Seleccionar", "AgregarCarrito", new { id = item.codProd }, new { @class = "btn btn-danger btn-sm" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+ 
+
+
+</div>
+
+<div class="mt-4">
+    <br />
+    <!-- crear la cantidad ActionLink de acuerdo al numero de páginas obtenido -->
+    @for (int i = 0; i < ViewBag.PAGINAS; i++)
+    {
+        @Html.ActionLink((i + 1).ToString(), "ListarProducto", new { nropagina = i }, new { @class = "btn btn-primary mr-2" })
+    }
+</div>

@@ -1,0 +1,85 @@
+﻿@model IEnumerable<Proyecto_DSW_QuickStop.Modelos.Comentarios>
+
+<style>
+    body {
+        background-image: url('@Url.Content("/Fondos/3.jpg")');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .table {
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+        .table th {
+            background-color: #f8f9fa;
+        }
+
+        .table td {
+            vertical-align: middle;
+        }
+
+    .btn-primary {
+        border-radius: 30px;
+    }
+
+    .btn-danger {
+        border-radius: 30px;
+    }
+</style>
+
+<div class="col-md-12 text-center">
+    <img src="/Logos/1.png" alt="Logo" style="width: 200px; height: 200px;">
+</div>
+<br />
+
+<h1>DANOS TU OPINION ACERCA DE LA TIENDA</h1>
+<br />
+
+<p>
+    <a asp-action="CreateComentarios" class="btn btn-primary">Da tu Comentario Acerca de la Tienda</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.cod_res)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cod_cli)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.comentarios)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.eliminado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cod_res)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cod_cli)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.comentarios)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.eliminado)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "EditComentarios", new { id = item.cod_res }, new { @class = "btn btn-success" })
+                    <a asp-action="DeleteComentarios" asp-route-id="@item.cod_res" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

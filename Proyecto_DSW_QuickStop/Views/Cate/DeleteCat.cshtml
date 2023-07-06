@@ -1,0 +1,63 @@
+﻿@model Proyecto_DSW_QuickStop.Models.CategoriaModel
+
+@{
+    ViewData["Title"] = "Eliminar Categoria";
+}
+
+<style>
+    body {
+        background-image: url("@Url.Content("/Fondos/3.jpg")");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+
+    h3 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .row {
+        margin-bottom: 20px;
+    }
+
+    dt {
+        font-weight: bold;
+    }
+
+    .btn-danger {
+        margin-right: 10px;
+    }
+
+    .btn-secondary {
+        text-decoration: none;
+    }
+</style>
+
+<div class="container">
+    <h3>¿Estás seguro de eliminar esta Categoría?</h3>
+    <div>
+        
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">Código:</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.cod_cat)</dd>
+            <dt class="col-sm-2">Nombre:</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.nombre_categoria)</dd>
+            <dt class="col-sm-2">Código de Marca:</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.cod_marca)</dd>
+        </dl>
+
+        <form asp-action="DeleteCat" class="my-form">
+            <input type="submit" value="Eliminar" class="btn btn-danger" />
+            <a asp-action="IndexCategoriaNombre" class="btn btn-secondary">Volver a la Lista</a>
+        </form>
+    </div>
+</div>

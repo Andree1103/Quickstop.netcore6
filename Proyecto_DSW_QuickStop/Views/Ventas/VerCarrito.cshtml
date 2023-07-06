@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Proyecto_DSW_QuickStop.Models.CarritoModel>
+
+@{
+    ViewData["Title"] = "VerCarrito";
+}
+
+<style>
+    body {
+        background-image: url('@Url.Content("/Fondos/5.jpg")');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+
+    .card {
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-img-top {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .btn-primary {
+        border-radius: 30px;
+    }
+
+    .btn-danger {
+        border-radius: 30px;
+    }
+
+    .table-container {
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<h1 class="text-center">Ver Carrito</h1>
+
+<div class="container mt-4">
+    <p>
+        <a asp-action="ListarProducto" class="btn btn-warning">Regresar al Listado</a>
+        <a asp-action="PagarCarrito" class="btn btn-info">Pagar Productos</a>
+    </p>
+
+    <div class="table-container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.codigo)</th>
+                    <th>@Html.DisplayNameFor(model => model.nombre)</th>
+                    <th>@Html.DisplayNameFor(model => model.precio)</th>
+                    <th>@Html.DisplayNameFor(model => model.cantidad)</th>
+                    <th>@Html.DisplayNameFor(model => model.importe)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.codigo)</td>
+                        <td>@Html.DisplayFor(modelItem => item.nombre)</td>
+                        <td>@Html.DisplayFor(modelItem => item.precio)</td>
+                        <td>@Html.DisplayFor(modelItem => item.cantidad)</td>
+                        <td>@Html.DisplayFor(modelItem => item.importe)</td>
+                        <td>
+                            <img src="@Url.Content("/Productos/" + item.codigo + ".jpg")" alt="@item.nombre" style="width:80px; height:80px;" />
+                        </td>
+
+                        <td>
+                            @Html.ActionLink("Actualizar", "AgregarCarrito", new { id = item.codigo, n_cantidad = item.cantidad }, new { @class = "btn btn-primary" })
+                            <form asp-action="EliminarProducto" asp-route-id="@item.codigo" method="post">
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('¿Estás seguro de eliminar el producto?')">Eliminar</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="alert alert-info mt-4">
+        <p>Total a Pagar: @ViewBag.TOTAL</p>
+    </div>
+</div>

@@ -1,0 +1,111 @@
+﻿@model Proyecto_DSW_QuickStop.Models.ClienteModelv2
+@{
+    ViewData["Title"] = "EditClientes";
+}
+
+<style>
+    body {
+        background-image: url("@Url.Content("/Fondos/3.jpg")");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .my-form {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 50px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .my-form label {
+        font-weight: bold;
+    }
+
+    .my-form .form-control {
+        border-radius: 20px;
+    }
+
+    .my-form .btn-primary {
+        border-radius: 20px;
+    }
+</style>
+
+<h1>Editar Clientes</h1>
+
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <img src="/Logos/1.png" alt="Logo" style="width: 200px; height: 200px;">
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+    <div class="col-md-4">
+        <form asp-action="EditClientes" class="my-form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="codCliente" class="control-label"></label>
+                <input asp-for="codCliente" class="form-control" />
+                <span asp-validation-for="codCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nomCliente" class="control-label"></label>
+                <input asp-for="nomCliente" class="form-control" />
+                <span asp-validation-for="nomCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="telCliente" class="control-label"></label>
+                <input asp-for="telCliente" class="form-control" />
+                <span asp-validation-for="telCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="corCliente" class="control-label"></label>
+                <input asp-for="corCliente" class="form-control" />
+                <span asp-validation-for="corCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dirCliente" class="control-label"></label>
+                <input asp-for="dirCliente" class="form-control" />
+                <span asp-validation-for="dirCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="credCliente" class="control-label"></label>
+                <input asp-for="credCliente" class="form-control" />
+                <span asp-validation-for="credCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fechaNac" class="control-label"></label>
+                <input asp-for="fechaNac" class="form-control" />
+                <span asp-validation-for="fechaNac" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="codDistrito" class="control-label"></label>
+                @Html.DropDownList("codDistrito", ViewBag.Distritos as SelectList, "Seleccione", new { @class = "form-select" })
+                <span asp-validation-for="codDistrito" class="text-danger"></span>
+            </div>
+            <br />
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Actualizar" class="btn btn-primary" />
+                <br />
+                <br />
+                <a asp-action="IndexClientesPorNombre" class="btn btn-secondary">Volver</a>
+            </div>
+        </form>
+    </div>
+    </div>
+</div>
+<br />
+
+<br />
+@if (ViewBag.MENSAJE != null)
+{
+    <div class="alert alert-primary">
+        @ViewBag.MENSAJE
+    </div>
+}

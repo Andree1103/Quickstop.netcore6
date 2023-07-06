@@ -1,0 +1,92 @@
+﻿@model Proyecto_DSW_QuickStop.Modelos.Favoritos
+
+<h4>Favoritos</h4>
+<hr />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <img src="/Logos/1.png" alt="Logo" style="width: 200px; height: 200px;">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <form asp-action="EditFavoritos" class="my-form">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="cod_fav" class="control-label"></label>
+                    <input asp-for="cod_fav" class="form-control" />
+                    <span asp-validation-for="cod_fav" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="cod_cli" class="control-label"></label>
+                    @Html.DropDownList("cod_cli", ViewBag.Cliente as SelectList,
+                    "Seleccione", new { @class = "form-select" })
+                    <span asp-validation-for="cod_cli" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="cod_prod" class="control-label"></label>
+                    @Html.DropDownList("cod_prod", ViewBag.Producto as SelectList,
+                    "Seleccione", new { @class = "form-select" })
+                    <span asp-validation-for="cod_prod" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="descripcion" class="control-label"></label>
+                    <input asp-for="descripcion" class="form-control" />
+                    <span asp-validation-for="descripcion" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group">
+                    @if (ViewBag.Exito_update == null)
+                    {
+                        <input type="submit" value="Actualizar" class="btn btn-primary" />
+                    }
+
+                    | <a asp-action="IndexFavoritos" class="btn btn-warning">Regresar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<br />
+<div class="alert alert-success">
+    <p>
+        @ViewBag.MENSAJE
+    </p>
+</div>
+
+<style>
+    body {
+        background-image: url("@Url.Content("/Fondos/3.jpg")");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .my-form {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 5px;
+        margin-top: 50px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .my-form label {
+            font-weight: bold;
+        }
+
+        .my-form .form-control {
+            border-radius: 20px;
+        }
+
+        .my-form .btn-primary {
+            border-radius: 20px;
+        }
+
+        .my-form .btn-warning {
+            border-radius: 20px;
+        }
+</style>
